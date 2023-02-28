@@ -1,14 +1,12 @@
 ---
-title:Master Bakery
+title: Master Bakery
 ---
 
 # Master Bakery
 
-
 Site: https://azkabanwarden.github.io/Static-Bakery-website/
 
 ---
-
 
 ## Introduction
 
@@ -18,7 +16,9 @@ Site: https://azkabanwarden.github.io/Static-Bakery-website/
 ---
 
 ![cvoer](https://github.com/AZKABANWARDEN/Static-Bakery-website/blob/master/design_pic/readMePic/cover.png?raw=true)
+
 ---
+
 ### 支援RWD切版 
 
 ![rwd](https://github.com/AZKABANWARDEN/Static-Bakery-website/blob/master/design_pic/readMePic/rwd.png?raw=true)
@@ -29,6 +29,7 @@ Site: https://azkabanwarden.github.io/Static-Bakery-website/
 
 ### Thanks for watching! :sheep: 
 ### Have a nice day !!!
+
 
 
 
