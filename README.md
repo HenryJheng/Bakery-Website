@@ -5,7 +5,7 @@ title:Master Bakery
 # Master Bakery
 
 
-Site: https://azkabanwarden.github.io/Static-Bakery-website/Site: https://azkabanwarden.github.io/Static-Bakery-website/
+Site: https://azkabanwarden.github.io/Static-Bakery-website/
 
 ---
 
