@@ -17,15 +17,15 @@ Site: https://azkabanwarden.github.io/Static-Bakery-website/
 
 ---
 
-![cvoer](https://github.com/AZKABANWARDEN/Master-Bakery-website/blob/master/design_pic/readMePic/cover.png?raw=true)
+![cvoer](https://github.com/AZKABANWARDEN/Static-Bakery-website/blob/master/design_pic/readMePic/cover.png?raw=true)
 ---
 ### 支援RWD切版 
 
-![rwd](https://github.com/AZKABANWARDEN/Master-Bakery-website/blob/master/design_pic/readMePic/rwd.png?raw=true)
+![rwd](https://github.com/AZKABANWARDEN/Static-Bakery-website/blob/master/design_pic/readMePic/rwd.png?raw=true)
 
 ### 回饋表單 Feedback
 
-![feedback](https://github.com/AZKABANWARDEN/Master-Bakery-website/blob/master/design_pic/readMePic/feedback.png?raw=true)
+![feedback](https://github.com/AZKABANWARDEN/Static-Bakery-website/blob/master/design_pic/readMePic/feedback.png?raw=true)
 
 ### Thanks for watching! :sheep: 
 ### Have a nice day !!!
