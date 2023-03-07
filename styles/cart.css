@@ -201,6 +201,7 @@ body main div.cart-container div.cart-item .edit:hover {
   cursor: pointer;
 }
 body main div.total {
+  display: flex;
   width: 90vw;
   background-color: #1d1d1d;
   color: #efefef;
@@ -210,6 +211,7 @@ body main div.total {
   text-align: center;
   height: 20vh;
   font-size: 2rem;
+  flex-wrap: wrap;
 }
 body main div.total > p {
   flex: 1.6 1;
@@ -369,7 +371,7 @@ body footer .info > p {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
-  body main div span {
+  body main #cart-subtitle span {
     display: none;
   }
   body main .cart-container .cart-item {

@@ -207,7 +207,6 @@ body {
         }
         .edit {
           font-size: 1rem;
-
           &:hover {
             cursor: pointer;
           }
@@ -215,6 +214,7 @@ body {
       }
     }
     div.total {
+      display: flex;
       width: 90vw;
       background-color: $product-bgc;
       color: $color-white;
@@ -224,6 +224,7 @@ body {
       text-align: center;
       height: 20vh;
       font-size: 2rem;
+      flex-wrap: wrap;
       > p {
         flex: 1.6 1;
       }
@@ -433,7 +434,7 @@ body {
           margin-bottom: 1rem;
         }
       }
-      div span {
+      #cart-subtitle span {
         display: none;
       }
       .cart-container {

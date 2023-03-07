@@ -635,4 +635,9 @@ body footer .info > p {
   body footer .info .contact p {
     width: 90vw;
   }
+}
+@media screen and (max-width: 576px) {
+  body .ourProducts .wrap .products .product .product-name {
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.css.map */
