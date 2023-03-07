@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="autor" content="DingYue (Henry) Jheng" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="百年老店、匠人精神，堅持做出最好的味道。"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="rating" content="" />
+    <title>Master Bakery - 刺激，您的味蕾</title>
+    <link rel="shortcut icon" href="design_pic/Icons/shortcut.ico" />
+    <link rel="bookmark" href="design_pic/Icons/shortcut.ico" />
+    <!-- google English fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Oswald&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google chinese fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Oswald&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles/cart.css" />
+    <!--AOS animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="./index.html">
+            <img src="design_pic/Icons/icons8-galaxy-96.png" alt="webLogo" />
+            <h1>Master Bakery</h1>
+          </a>
+        </div>
+        <div class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="./index.html#aboutUs" class="backToBar">About Us</a></li>
+          <li>
+            <a href="./index.html#ourProducts" class="backToBar">Products</a>
+          </li>
+          <li>
+            <a href="./index.html#feedback" class="backToBar">Feedback</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="shoppingCart">
+        <h1>Shopping Cart</h1>
+        <div>
+          <span id="listItem">商品</span>
+          <span id="listprice">單價</span>
+          <span id="listNum">數量</span>
+          <span id="listEdit">編輯</span>
+        </div>
+      </div>
+      <div class="cart-container"></div>
+      <div class="total">
+        <p>Total price:</p>
+        <span id="priceNum"></span>
+        <button class="checkout">結帳</button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="info">
+        <div class="brandName">
+          <h1>Master Bakery</h1>
+        </div>
+        <div class="contact">
+          <span>Contact Us </span>
+          <p>
+            Mobile:09xx-xxx-xxx<br />
+            Bakery Way, BakeryPark, California, United States
+          </p>
+        </div>
+        <p>&copy; 2022 Henry Jheng Inc.</p>
+      </div>
+    </footer>
+    <!--Js-->
+    <script src="app/navbar.js"></script>
+    <script src="app/cart.js"></script>
+  </body>
+</html>

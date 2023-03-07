@@ -1,203 +1,234 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="autor" content="DingYue (Henry) Jheng">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="百年老店、匠人精神，堅持做出最好的味道。">
-        <meta name="robots" content="index,follow">
-        <meta name="rating" content="">
-        <title>Master Bakery - 刺激，您的味蕾</title>
-        <link rel="shortcut icon" href="design_pic/Icons/shortcut.ico">
-        <link rel="bookmark" href="design_pic/Icons/shortcut.ico">
-        <!-- google English fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet"> 
-        <!-- google chinese fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet"> 
-        
-        <link rel="stylesheet" type="text/css" href="styles/index.css">
-        <!--AOS animation-->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    </head>
-    
-    <body>
-        <header>
-            <nav>           
-                <div class="logo">
-                    <a href="#">
-                        <img src="design_pic/Icons/icons8-galaxy-96.png" alt="webLogo">
-                        <h1>Master Bakery</h1>
-                    </a>       
-                </div>
-                <div class="menu-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#aboutUs" class="backToBar">About Us</a></li>
-                    <li><a href="#products" class="backToBar">Products</a></li>
-                    <li id="cart-num"><a href="#" class="backToBar">Cart</a><i id="stuff-number">5</i></li>
-                    <li><a href="#feedback" class="backToBar">Feedback</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="backImage">
-                <div class="filter"></div>
-                    <div class="title">
-                        <h2 class="titleText">SPARK YOUR IMAGINATION</h2>
-                        <h3>Follow your dream while you still have the energy</h3>
-                        <div>
-                            <button type="button">LEARN MORE</button>
-                        </div>
-                    </div>
-            </section> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="autor" content="DingYue (Henry) Jheng" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="百年老店、匠人精神，堅持做出最好的味道。"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="rating" content="" />
+    <title>Master Bakery - 刺激，您的味蕾</title>
+    <link rel="shortcut icon" href="design_pic/Icons/shortcut.ico" />
+    <link rel="bookmark" href="design_pic/Icons/shortcut.ico" />
+    <!-- google English fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Oswald&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google chinese fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Oswald&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
 
-            <!-- second page -->
-            <section class="introduction" id="aboutUs">
-                <h2>Through the most professional team, let us take you to
-                <br>
-                <span>ALL AROUND THE WORLD</span>
-                </h2>
-                <section class="cards">
-                    <div class="card">
-                        <div class="imageScale">
-                            <img src="design_pic/pictures/customized.jpg" alt="客製化服務">
-                        </div>
-                    <span>客製化服務<br>Customized Service</span>
-                    <a href="#">MORE</a>
-                    </div>
-                <div class="card">
-                    <div class="imageScale">
-                        <img src="design_pic/pictures/professional.jpg" alt="專業態度">
-                    </div>
-                    <span>專業態度<br>Professional Attitude</span>
-                    <a href="#">MORE</a>
-                </div>
-                <div class="card">
-                    <div class="imageScale">
-                        <img src="design_pic/pictures/afterSale.jpg" alt="售後服務">
-                    </div>
-                    <span>售後服務<br>After-sales Service</span>
-                    <a href="#">MORE</a>
-                </div>
-            </section>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <!--AOS animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
 
-            <!--third page-->
-            <section class="bakery">
-                <div class="bakery-story">
-                    <div class="baker">
-                        <img src="design_pic/pictures/bread4.jpg" alt="sample1">
-                    </div>
-                    <div class="bakery-decription">
-                        <h3>Master Bakery</h3> 
-                        <p>
-                         百年老店、職人精神<br>
-                         堅持手工製麵，只為做出最好的味道
-                         <br>
-                         "A century-old shop, dedicated to the artisan spirit of handmade dough, striving to create the best taste."
-                        </p>
-                    </div>
-                </div>   
-            </section>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">
+            <img src="design_pic/Icons/icons8-galaxy-96.png" alt="webLogo" />
+            <h1>Master Bakery</h1>
+          </a>
+        </div>
+        <div class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#aboutUs" class="backToBar">About Us</a></li>
+          <li><a href="#ourProducts" class="backToBar">Products</a></li>
+          <li id="cart-num">
+            <a href="./cart.html" class="backToBar">Cart</a>
+          </li>
+          <li><a href="#feedback" class="backToBar">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="backImage">
+        <div class="filter"></div>
+        <div class="title">
+          <h2 class="titleText">SPARK YOUR IMAGINATION</h2>
+          <h3>Follow your dream while you still have the energy</h3>
+          <div>
+            <button type="button">LEARN MORE</button>
+          </div>
+        </div>
+      </section>
 
-
-            <!-- fourth page -->
-            <section class="ourProducts" id="ourProducts">
-                <h2 class="products-title">PRODUCTS</h2>
-                <div class="wrap">
-                    <div class="products" id="products">
-                        <div class="product">
-                            <img src="design_pic/pictures/bread1.png" alt="tent">
-                            <h3 class="product-name">Star Bread</h3>
-                            <div class="price-quantity">
-                                <h2 class="price">$ 599</h2>
-                                <a class="add-btn">Add</a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <img src="design_pic/pictures/bread2.png" alt="ax">
-                            <h3 class="product-name">Baguette</h3>
-                            <div class="price-quantity">
-                                <h2 class="price">$ 299</h2>
-                                <a class="add-btn">Add</a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <img src="design_pic/pictures/bread3.png" alt="chair">
-                            <h3 class="product-name">Bread</h3>
-                            <div class="price-quantity">
-                                <h2 class="price">$ 199</h2>
-                                <a class="add-btn">Add</a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <img src="design_pic/pictures/bread3.png" alt="sleepingBag">
-                            <h3 class="product-name">Bread</h3>
-                            <div class="price-quantity">
-                                <h2 class="price">$ 199</h2>
-                                <a class="add-btn">Add</a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <img src="design_pic/pictures/bread2.png" alt="charcoal">
-                            <h3 class="product-name">Baguette</h3>
-                            <div class="price-quantity">
-                                <h2 class="price">$ 299</h2>
-                                <a class="add-btn">Add</a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <img src="design_pic/pictures/bread1.png" alt="bottle">
-                            <h3 class="product-name">Star Bread</h3>
-                            <div class="price-quantity">
-                                <h2 class="price">$ 599</h2>
-                                <a class="add-btn">Add</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> 
-
-            <!-- feedback -->
-            <section class="feedback" id="feedback">
-                <div class="feedback-section">
-                    <h1>Feedback</h1>
-                    <div class="border"></div>
-                    <form class="feedback-form" action="index.html" method="post">
-                        <input type="text" class="feedback-form-text" placeholder="Your name" required>
-                        <input type="email" class="feedback-form-text" placeholder="Your email" required>
-                        <input type="text" class="feedback-form-text" placeholder="Your phone" required>
-                        <textarea class="feedback-form-text" placeholder="Your message" required></textarea>
-                        <input type="submit" class="feedback-form-btn" value="Send">
-                    </form>
-                </div>         
-            </section>
-        </main>
-   
-    
-        <footer>
-            <div class="info">
-                <div class="footerLogo">
-                    <img src="design_pic/Icons/icons8-galaxy-96.png" alt="webLogo">
-                    <h1>Master Bakery</h1>
-                </div>
-                <div class="contact">
-                    <span>Contact Us </span>
-                    <p>Mobile:09xx-xxx-xxx<br>
-                        Bakery Way, BakeryPark, California, United States
-                    </p>
-                </div>
-                <p> &copy; 2022 Henry Jheng Inc. </p>
+      <!-- second page -->
+      <section class="introduction" id="aboutUs">
+        <h2>
+          Through the most professional team, let us take you to
+          <br />
+          <span>ALL AROUND THE WORLD</span>
+        </h2>
+        <section class="cards">
+          <div class="card">
+            <div class="imageScale">
+              <img src="design_pic/pictures/customized.jpg" alt="客製化服務" />
             </div>
-        </footer>
-            <!--Js-->
-        <script src="app/index.js"></script>
-        <script src="app/cart.js"></script>
-    </body>
-</html> 
+            <span>客製化服務<br />Customized Service</span>
+            <a href="#">MORE</a>
+          </div>
+          <div class="card">
+            <div class="imageScale">
+              <img src="design_pic/pictures/professional.jpg" alt="專業態度" />
+            </div>
+            <span>專業態度<br />Professional Attitude</span>
+            <a href="#">MORE</a>
+          </div>
+          <div class="card">
+            <div class="imageScale">
+              <img src="design_pic/pictures/afterSale.jpg" alt="售後服務" />
+            </div>
+            <span>售後服務<br />After-sales Service</span>
+            <a href="#">MORE</a>
+          </div>
+        </section>
+      </section>
+
+      <!--third page-->
+      <section class="bakery">
+        <div class="bakery-story">
+          <div class="baker">
+            <img src="design_pic/pictures/bread4.jpg" alt="sample1" />
+          </div>
+          <div class="bakery-decription">
+            <h3>Master Bakery</h3>
+            <p>
+              百年老店、職人精神<br />
+              堅持手工製麵，只為做出最好的味道
+              <br />
+              "A century-old shop, dedicated to the artisan spirit of handmade
+              dough, striving to create the best taste."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- fourth page -->
+      <section class="ourProducts" id="ourProducts">
+        <h2 class="products-title">PRODUCTS</h2>
+        <div class="wrap">
+          <div class="products" id="products">
+            <div class="product">
+              <img src="design_pic/pictures/bread1.png" alt="Star Bread" />
+              <h3 class="product-name">Star Bread</h3>
+              <div class="price-quantity">
+                <h2 class="price">599</h2>
+                <button class="add-btn">Add</button>
+              </div>
+            </div>
+            <div class="product">
+              <img src="design_pic/pictures/bread2.png" alt="Baguette" />
+              <h3 class="product-name">Baguette</h3>
+              <div class="price-quantity">
+                <h2 class="price">299</h2>
+                <button class="add-btn">Add</button>
+              </div>
+            </div>
+            <div class="product">
+              <img src="design_pic/pictures/bread3.png" alt="Bread" />
+              <h3 class="product-name">Bread</h3>
+              <div class="price-quantity">
+                <h2 class="price">199</h2>
+                <abutton class="add-btn">Add</abutton>
+              </div>
+            </div>
+            <div class="product">
+              <img src="design_pic/pictures/bread3.png" alt="Bread" />
+              <h3 class="product-name">Bread</h3>
+              <div class="price-quantity">
+                <h2 class="price">199</h2>
+                <button class="add-btn">Add</button>
+              </div>
+            </div>
+            <div class="product">
+              <img src="design_pic/pictures/bread2.png" alt="Baguette" />
+              <h3 class="product-name">Baguette</h3>
+              <div class="price-quantity">
+                <h2 class="price">299</h2>
+                <abutton class="add-btn">Add</abutton>
+              </div>
+            </div>
+            <div class="product">
+              <img src="design_pic/pictures/bread1.png" alt="Star Bread" />
+              <h3 class="product-name">Star Bread</h3>
+              <div class="price-quantity">
+                <h2 class="price">599</h2>
+                <abutton class="add-btn">Add</abutton>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- feedback -->
+      <section class="feedback" id="feedback">
+        <div class="feedback-section">
+          <h1>Feedback</h1>
+          <div class="border"></div>
+          <form class="feedback-form" action="index.html" method="post">
+            <input
+              type="text"
+              class="feedback-form-text"
+              placeholder="Your name"
+              required
+            />
+            <input
+              type="email"
+              class="feedback-form-text"
+              placeholder="Your email"
+              required
+            />
+            <input
+              type="text"
+              class="feedback-form-text"
+              placeholder="Your phone"
+              required
+            />
+            <textarea
+              class="feedback-form-text"
+              placeholder="Your message"
+              required
+            ></textarea>
+            <input type="submit" class="feedback-form-btn" value="Send" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="info">
+        <div class="brandName">
+          <h1>Master Bakery</h1>
+        </div>
+        <div class="contact">
+          <span>Contact Us </span>
+          <p>
+            Mobile:09xx-xxx-xxx<br />
+            Bakery Way, BakeryPark, California, United States
+          </p>
+        </div>
+        <p>&copy; 2022 Henry Jheng Inc.</p>
+      </div>
+    </footer>
+    <!--Js-->
+    <script src="app/navbar.js"></script>
+    <script src="app/cart.js"></script>
+  </body>
+</html>
