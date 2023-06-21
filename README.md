@@ -4,7 +4,7 @@ title: Master Bakery
 
 # Master Bakery
 
-Site: https://azkabanwarden.github.io/Static-Bakery-website/
+Site: https://henryjheng.github.io/Static-Bakery-website/
 
 ---
 
@@ -17,7 +17,7 @@ Site: https://azkabanwarden.github.io/Static-Bakery-website/
 
 ---
 
-![cvoer](https://github.com/henryjheng/Static-Bakery-website/blob/master/design_pic/readMePic/cover.png?raw=true)
+![cvoer](https://github.com/AZKABANWARDEN/Static-Bakery-website/blob/master/design_pic/readMePic/cover.png?raw=true)
 
 ---
 
