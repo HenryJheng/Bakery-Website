@@ -4,7 +4,7 @@ title: Master Bakery
 
 # Master Bakery
 
-Site: https://henryjheng.github.io/Static-Bakery-website/
+Site: https://henryjheng.github.io/Bakery-Website/
 
 ---
 
